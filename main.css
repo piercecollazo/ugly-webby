@@ -1,21 +1,32 @@
+body {
+    background-color: rgb(245, 1, 1)
+}
+
 h1 {
-    color: #111;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 275px;
+    color: rgb(47, 0, 255);
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 20px;
     font-weight: bold;
     letter-spacing: -1px;
     line-height: 1;
-    text-align: center;
+    text-align: left;
+}
+
+h3{
+    color:rgb(17, 0, 255);
+    font-family: 'Wingdings';
 }
 
 p {
-    color: #685206;
-    font-family: 'Helvetica Neue', sans-serif;
+    color:#1900fd;
+    font-family: 'Wingdings', cursive, sans-serif;
     font-size: 14px;
     line-height: 24px;
     margin: 0 0 24px;
     text-align: justify;
     text-justify: inter-word;
+    font-weight: bolder;
+    font-style: italic;
 }
 
 textarea {
@@ -27,11 +38,15 @@ textarea {
 ul, ol {
     margin: 20px;
     padding: 0;
+ 
 }
 
 li {
-    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
-    border-bottom: 1px solid #ccc;
+    font: 200 12px/1.5 'Comic Sans MS', cursive, sans-serif;
+    border-bottom: 1px solid rgb(238, 255, 0);
+    color:rgb(41, 0, 189);
+    text-align: right;
+    font-style: oblique;
 }
    
 li:last-child {
@@ -39,10 +54,10 @@ li:last-child {
 }
 
 form {
-    height:110px;
-    width:190px;
+    height:100px;
+    width:600px;
     margin:auto;
-    border:1px #CCC solid;
+    border:1px rgb(200, 255, 0) solid;
     padding:10px;
 }
     
