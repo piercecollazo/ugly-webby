@@ -62,6 +62,8 @@ form {
 }
     
 input, textarea {
-    padding:5px;
-    margin:5px
+    padding:20px;
+    margin:5px;
+    color:white;
+    background-color: yellow;
 }
